@@ -6,7 +6,8 @@
 
 - フォームUIを作成する
 - 特定の入力の下にエラーメッセージを表示する
-- checkRequired()：　入力の配列を受け入れる
-- checkLength()：　最小長と最大長をチェックする
-- checkEmail()：　正規表現で電子メールを検証する
-- checkPasswordsMatch()：　確認パスワードを照合する
+### バリデーション詳細
+- Username：　入力必須、3文字以上15文字以下
+- Email：　入力必須、メールアドレスの形式
+- Password：　入力必須、6文字以上25文字以下
+- Confirm Password：　入力必須、Passwordと一致しなくてはならない
